@@ -1,0 +1,30 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+ body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: black;
+  height: 100vh;
+ }
+
+
+ h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+ }
+
+ .intro{
+  background-image: url(img-1.jfif);
+  /* background-repeat: no-repeat; */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+ }
